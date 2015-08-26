@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.renegade.audio.audiochain.MainActivity"
+    android:weightSum="1"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#2C2A29">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".40"
+        android:layout_gravity="top|center_vertical"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/numPeople"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_margin="16dp"
+            android:textSize="50dp"
+            android:background="#FFFFFF"
+            android:autoText="true"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:text="@string/Start"
+    android:id="@+id/button"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_weight="0.50"
+    android:background="#782F40"
+    android:textColor="#FFFFFF"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+
